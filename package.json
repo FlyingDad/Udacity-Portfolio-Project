@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "author": "Michael Kroth",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^8.3.0",
+    "grunt": "^1.0.2",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.1",
+    "grunt-postcss": "^0.9.0",
+    "pixrem": "^4.0.1"
+  },
+  "dependencies": {}
+}

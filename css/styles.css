@@ -1,0 +1,15 @@
+h1 {
+  color: red;
+}
+
+@media screen and (min-width: 800px) {
+  h1 {
+    color: olivedrab;
+    -webkit-transition: margin-right 2s .5s;
+    transition: margin-right 2s .5s;
+    background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#111));
+    background: linear-gradient(#000, #111);
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

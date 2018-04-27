@@ -1,0 +1,6 @@
+.DS_Store
+[Rr]aw Images/
+[Ii]mg/
+node_modules/
+.sass-cache/
+*.log
