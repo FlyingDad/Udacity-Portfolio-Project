@@ -39,6 +39,7 @@ hr {
 
 .hero {
   width: 100%;
+  height: 100%;
 }
 .hero img {
   width: 100%;
@@ -49,20 +50,27 @@ hr {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: midnightblue;
+  padding: 0 1%;
 }
 
 .featured {
+  border-radius: 4px;
   width: 30%;
   text-align: center;
-  height: 500px;
+  margin: 20px 0 10px 0;
+  padding: 5px 5px;
+  background: linear-gradient(#001c75, #3537c0, #001c75);
 }
 .featured img {
   width: 100%;
+  margin-bottom: 10px;
+  border-radius: 4px;
 }
 .featured a {
-  font-size: 2em;
+  font-size: 1.2em;
+  font-weight: 100;
   text-decoration: none;
+  color: white;
 }
 
 main h1 {
