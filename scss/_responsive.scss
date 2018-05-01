@@ -1,15 +1,30 @@
-@media screen and (max-width: 400px){
+@media screen and (max-width: 800px){
+
+	.featured {
+		width: 48%;
+	}
+}
+
+
+
+@media screen and (max-width: 550px){
+
+	// #logo {
+	// 	display: none;
+	// }
 
 	#logo {
-		display: none;
+		img {
+			max-width: 100px;
+		}
 	}
 
 	#header-title {
-		width: 100%;
+		font-size: .8em;
 	}
 
 	main h1 {
-		font-size: 1em;
+		font-size: 1.5em;
 	}
 	.featured {
 		width: 100%;
